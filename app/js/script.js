@@ -93,7 +93,7 @@ $( document ).ready(function() {
 	// add header function
 	
 	function a66_add_header_content() {
-		$('.site-header').append('<div class="air66-logo-wrap"><a class="air66-logo-link" href="https://aka.bellarmine.edu/admin" target="_blank"><img class="air66-logo" src="' + url + '/dist/images/a66-logo-wh.svg" alt="Air 66 Design Ltd Logo"></a></div>');
+		$('.site-header').append('<div class="air66-logo-wrap"><a class="air66-logo-link" href="https://aka.bellarmine.edu/admin" target="_blank"><img class="air66-logo" src="' + url + '/dist/images/bellarmine.png" alt="Air 66 Design Ltd Logo"></a></div>');
 	}
 	
 	
