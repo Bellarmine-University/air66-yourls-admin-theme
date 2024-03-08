@@ -7553,7 +7553,7 @@ input.button {
   color: #ffffff;
   padding: 10px 25px;
   margin-top: 15px !important;
-  background: #2cd1dd !important;
+  background: #752936 !important;
   border: none;
   text-transform: uppercase;
   border-radius: 0; }
@@ -7598,7 +7598,7 @@ select:hover {
   font-weight: normal;
   padding: 10px 25px;
   margin-top: 15px !important;
-  background: #2cd1dd !important; }
+  background: #752936 !important; }
 .login input.button:hover {
   background: #1eaeb8 !important; }
 .login .error {
@@ -7657,7 +7657,7 @@ select:hover {
       border-radius: 0; }
     .form-wrap #new_url_form #add-button {
       padding: 10px 20px;
-      background-color: #2cd1dd !important;
+      background-color: #752936 !important;
       text-transform: uppercase;
       outline: none !important;
       border: none;
@@ -7755,8 +7755,8 @@ header[role=banner] {
   margin: 0;
   padding: 0;
   border-radius: 0;
-  background: #2cd1dd;
-  border: 1px solid #2cd1dd;
+  background: #752936;
+  border: 1px solid #752936;
   padding: 10px; }
   .notice p {
     color: white; }
@@ -7830,7 +7830,7 @@ nav {
     transition: 0.4s all ease-in-out; }
 
 nav a:active:hover, nav a:hover, nav a:link:hover, nav a:visited:hover {
-  color: #2cd1dd !important; }
+  color: #752936 !important; }
 
 ul#admin_menu li {
   color: #ffffff;
@@ -7894,7 +7894,7 @@ ul#admin_menu li:hover {
     .infos #tabs ul#headers li a.selected,
     .infos #tabs #stats_lines li a.selected {
       background: #e8e8e8;
-      border-bottom: 2px solid #2cd1dd; }
+      border-bottom: 2px solid #752936; }
       .infos #tabs ul#headers li a.selected:hover,
       .infos #tabs #stats_lines li a.selected:hover {
         background: #d1d1d1; }
@@ -7903,7 +7903,7 @@ ul#admin_menu li:hover {
   .infos #tabs ul.toggle_display {
     border: none; }
   .infos #tabs svg ellipse {
-    fill: #2cd1dd; }
+    fill: #752936; }
 
 table.tblSorter {
   background-color: #f7f7f7;
@@ -7937,7 +7937,7 @@ table.tblSorter {
   table.tblSorter tbody tr.normal-row td {
     background: white; }
   table.tblSorter .keyword {
-    border-left: 8px solid #2cd1dd; }
+    border-left: 8px solid #752936; }
   table.tblSorter input.text {
     padding: 5px;
     margin: 8px 5px !important; }
@@ -7951,7 +7951,7 @@ table.tblSorter {
   table.tblSorter td.actions .button {
     margin-top: 5px; }
   table.tblSorter td.actions .button_stats {
-    background: #2cd1dd url(images/stats.png) 0px center no-repeat;
+    background: #752936 url(images/stats.png) 0px center no-repeat;
     background-size: 23px;
     background-position: center;
     border: none;
@@ -7963,7 +7963,7 @@ table.tblSorter {
       background-size: 23px;
       background-position: center; }
   table.tblSorter td.actions .button_share {
-    background: #2cd1dd url(images/share.png) 0px center no-repeat;
+    background: #752936 url(images/share.png) 0px center no-repeat;
     background-size: 23px;
     background-position: center;
     border: none;
@@ -7975,7 +7975,7 @@ table.tblSorter {
       background-size: 23px;
       background-position: center; }
   table.tblSorter td.actions .button_edit {
-    background: #2cd1dd url(images/edit.png) 0px center no-repeat;
+    background: #752936 url(images/edit.png) 0px center no-repeat;
     background-size: 23px;
     background-position: center;
     border: none;

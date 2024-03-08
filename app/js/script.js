@@ -11,7 +11,7 @@ $( document ).ready(function() {
 // Detect login page
   if ($("body").hasClass("login")) {
 	  
-	  $("#login").prepend('<img class="air66-logo" src="' + url + '/dist/images/a66-logo.svg" alt="Air 66 Design Ltd Logo">');
+	  $("#login").prepend('<img class="air66-logo" src="' + url + '/dist/images/bellarmine.png" alt="Air 66 Design Ltd Logo">');
   }
 	
 	// Remove the YOURLS header
@@ -21,7 +21,7 @@ $( document ).ready(function() {
 	// remove help link in nav 
 	$('#admin_menu_help_link').remove();
 	
-	$('#admin_menu').append('<li class="admin_menu_toplevel"><a href="https://air66design.com" target="_blank">Contact Air 66 Design</a></li>');
+	$('#admin_menu').append('<li class="admin_menu_toplevel"><a href="https://aka.bellarmine.edu/admin" target="_blank">Contact Air 66 Design</a></li>');
 	
 	// Add New A66 header 
 	$("body").prepend($('<header class="site-header">').load(url + '/dist/html/header.php', function() {
@@ -77,7 +77,7 @@ $( document ).ready(function() {
         // Update footer
         var content = $(this).html();
         var i = 77
-        var updated_content = "Running on" + content.slice(13, i) + '& <a href="https://air66design.com/" title="Air 66 Design Ltd" target="_blank">Air 66 Design Ltd</a>' + content.slice(i-1)
+        var updated_content = "Running on" + content.slice(13, i) + '& <a href="https://aka.bellarmine.edu/admin/" title="Air 66 Design Ltd" target="_blank">Air 66 Design Ltd</a>' + content.slice(i-1)
         $(this).html(updated_content);
       }
   });
@@ -93,7 +93,7 @@ $( document ).ready(function() {
 	// add header function
 	
 	function a66_add_header_content() {
-		$('.site-header').append('<div class="air66-logo-wrap"><a class="air66-logo-link" href="https://air66design.com" target="_blank"><img class="air66-logo" src="' + url + '/dist/images/a66-logo-wh.svg" alt="Air 66 Design Ltd Logo"></a></div>');
+		$('.site-header').append('<div class="air66-logo-wrap"><a class="air66-logo-link" href="https://aka.bellarmine.edu/admin" target="_blank"><img class="air66-logo" src="' + url + '/dist/images/a66-logo-wh.svg" alt="Air 66 Design Ltd Logo"></a></div>');
 	}
 	
 	
